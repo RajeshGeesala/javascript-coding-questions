@@ -5,7 +5,7 @@ console.log(normalString)
 function reverseString() {
   let reversed = ""
   for (let i = normalString.length - 1; i >= 0; i--) {
-    reversed = reversed + normalString[i]
+     reversed = reversed + normalString[i]
 
   }
   return reversed
@@ -14,7 +14,7 @@ function reverseString() {
 console.log(reverseString())
 // method 2 ;
 // inbuilt js methods ;
-const reveredString = normalString.split("").reverse().join("");
+const reveredString = normalString.split("").reverse().join("") ;
 console.log(reveredString);
 
 //return longest word in the sentence ;
@@ -83,7 +83,7 @@ function isPrime(number) {
 }
 console.log(isPrime(15)) ;
 
-
+ // is Prime number 2 ;
 const isPrime2 = (number) => {
   if(number == 1){
     console.log(`${number} is neither prime number or composite number`)
@@ -99,11 +99,8 @@ const isPrime2 = (number) => {
     var result = `${number} is a prime number`
    }
   }
-  
   return result ;
-
 } ;
-
 console.log(isPrime2(769)) ;
 
 
